@@ -1,8 +1,8 @@
 package com.spring.hr.letsbe.batch.job
 
-import com.spring.hr.letsbe.batch.dto.PersonDto
+import com.spring.hr.letsbe.business.test.dto.PersonDto
 import com.spring.hr.letsbe.batch.itemProcessors.PersonItemProcessor
-import com.spring.hr.letsbe.batch.repository.PersonRepository
+import com.spring.hr.letsbe.business.test.repository.PersonRepository
 import org.springframework.batch.core.Job
 import org.springframework.batch.core.Step
 import org.springframework.batch.core.configuration.annotation.EnableBatchProcessing
@@ -15,7 +15,6 @@ import org.springframework.batch.item.file.FlatFileItemReader
 import org.springframework.batch.item.file.mapping.BeanWrapperFieldSetMapper
 import org.springframework.batch.item.file.mapping.DefaultLineMapper
 import org.springframework.batch.item.file.transform.DelimitedLineTokenizer
-import org.springframework.batch.item.file.transform.LineTokenizer
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.beans.factory.annotation.Qualifier
 import org.springframework.context.annotation.Bean
@@ -23,7 +22,6 @@ import org.springframework.context.annotation.Configuration
 import org.springframework.core.io.ClassPathResource
 
 import javax.sql.DataSource
-import java.util.concurrent.atomic.AtomicInteger
 
 @Configuration
 @EnableBatchProcessing

@@ -1,4 +1,4 @@
-package com.spring.hr.letsbe.batch.domain
+package com.spring.hr.letsbe.business.test.domain
 
 import javax.persistence.Column
 import javax.persistence.Entity
@@ -7,7 +7,7 @@ import javax.persistence.Table
 
 @Entity
 @Table(name = 'TB_PEOPLE', schema = 'HR')
-class PeopleTC {
+class PeopleDomain {
 
     @Id
     @Column(name = 'person_id')

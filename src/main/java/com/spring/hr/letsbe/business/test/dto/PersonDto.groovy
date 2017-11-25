@@ -1,4 +1,4 @@
-package com.spring.hr.letsbe.batch.dto
+package com.spring.hr.letsbe.business.test.dto
 
 class PersonDto {
     String personId

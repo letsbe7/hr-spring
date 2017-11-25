@@ -1,6 +1,6 @@
 package com.spring.hr.letsbe.batch.job
 
-import com.spring.hr.letsbe.batch.dto.PersonDto
+import com.spring.hr.letsbe.business.test.dto.PersonDto
 import org.slf4j.Logger
 import org.slf4j.LoggerFactory
 import org.springframework.batch.core.BatchStatus
