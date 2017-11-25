@@ -42,7 +42,4 @@ class BatchConfiguration {
             .build()
     }
 
-
-
-
 }
